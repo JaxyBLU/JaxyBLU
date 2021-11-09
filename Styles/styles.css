@@ -1,0 +1,69 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background-color: black;
+	font-family: "Kaushan Script", sans-serif;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+header h1{
+	user-select: none;
+	cursor: default;
+	font-family: inherit;
+	text-align: center;
+	font-size: 5rem;
+	color: white;
+	margin-bottom: 0.5rem;
+}
+
+header p{
+	user-select: none;
+	cursor: default;
+	letter-spacing: 0.2rem;
+	font-family: inherit;
+	margin: auto;
+	max-width: 50%;
+	text-align: center;
+	font-size: 1rem;
+	color: white;
+}
+
+.navigation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 70%;
+}
+
+a{
+	display: inline-block;
+	font-size: 7rem;
+	width: 150px;
+	height: 150px;
+	margin: 1rem;
+	text-align: center;
+	transition: color 0.3s linear;
+	background-color: transparent;
+	border: none;
+}
+
+a:link{
+	color: white;
+}
+a:visited{
+	color: white;
+}
+a:hover{
+	color: purple;
+}
+a:active{
+	color: white;
+}
