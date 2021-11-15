@@ -67,3 +67,22 @@ a:hover{
 a:active{
 	color: white;
 }
+
+.aboutme{
+	font-family: "Montserrat", sans-serif;
+	padding: 1.5rem;
+	max-width: 40%;
+	margin-top: 3rem;
+	background-color: inherit;
+	color: white;
+}
+
+.aboutme h3{
+	text-align: center;
+}
+
+.aboutme p{
+	text-align: justify;
+	word-spacing: 0.5rem;
+	line-height: 1.5rem;
+}
