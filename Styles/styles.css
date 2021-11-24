@@ -4,85 +4,37 @@
 
 body{
 	margin: 0;
-	background-color: black;
-	font-family: "Kaushan Script", sans-serif;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	padding: 0;
+	background-color: #fff;
+	font-family: "Lato", sans-serif;
+	min-width: 100%;
+	min-height: 100vh;
 }
 
-header h1{
-	user-select: none;
-	cursor: default;
-	font-family: inherit;
-	text-align: center;
-	font-size: 5rem;
-	color: white;
-	margin-bottom: 0.5rem;
+header{
+	height: 10vh;
 }
 
-header p{
-	user-select: none;
-	cursor: default;
-	letter-spacing: 0.2rem;
-	font-family: inherit;
-	margin: auto;
-	max-width: 50%;
-	text-align: center;
-	font-size: 1rem;
-	color: white;
-}
+/*My name is Beck. I'm a beginner in studying front-end web development.
+	I started my journey of a web developer from high school where I
+	started to participate in regional scholastic competitions.
+	Next I went to Kyrgyz State Technical University to study Software Engineering.
+	After studing two and half years I decided to suspend my studies due to some
+	reasons. Followed by that I started to work in an absolutely different 
+	industry of hospitatlity. Now after more than 4 years I'm glad to resume 
+	my studies.
+	Currently I'm a student of KSTU again and at the same time working
+	and studying from the city of Dubai.*/
 
-.navigation{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	max-width: 70%;
-}
-
-a{
-	display: inline-block;
-	font-size: 7rem;
-	width: 150px;
-	height: 150px;
-	margin: 1rem;
-	text-align: center;
-	transition: color 0.3s linear;
-	background-color: transparent;
-	border: none;
-}
-
-a:link{
-	color: white;
-}
-a:visited{
-	color: white;
-}
-a:hover{
-	color: purple;
-}
-a:active{
-	color: white;
-}
-
-.aboutme{
-	font-family: "Montserrat", sans-serif;
-	padding: 1.5rem;
-	max-width: 40%;
-	margin-top: 3rem;
-	background-color: inherit;
-	color: white;
-}
-
-.aboutme h3{
-	text-align: center;
-}
-
-.aboutme p{
-	text-align: justify;
-	word-spacing: 0.5rem;
-	line-height: 1.5rem;
-}
+	/*<div class="navigation">
+	<a href="https://jaxyblu.github.io/countdown-timer/" target="_blank" title="Countdown Timer App"><i class="far fa-clock"></i></a>
+	<a href="https://jaxyblu.github.io/quiz-app/" target="_blank" title="Quiz App"><i class="fas fa-user-graduate"></i></a>
+	<a href="https://jaxyblu.github.io/recipe-app/" target="_blank" title="Recipe App"><i class="fas fa-hamburger"></i></a>
+	<a href="https://jaxyblu.github.io/notes-app/" target="_blank" title="Notes App"><i class="far fa-sticky-note"></i></a>
+	<a href="https://jaxyblu.github.io/todo-app/" target="_blank" title="ToDo App"><i class="fas fa-tasks"></i></a>
+	<a href="https://jaxyblu.github.io/movies-app/" target="_blank" title="Movies App"><i class="fas fa-film"></i></a>
+	<a href="https://jaxyblu.github.io/github-profiles/" target="_blank" title="GitHub Profiles App"><i class="fab fa-github"></i></a>
+	<a href="https://jaxyblu.github.io/drawing-app/" target="_blank" title="Drawing App"><i class="fas fa-palette"></i></a>
+	<a href="https://jaxyblu.github.io/password-generator/" target="_blank" title="Password Generator"><i class="fas fa-key"></i></a>
+	<a href="https://jaxyblu.github.io/weather-app/" target="_blank" title="Weather App"><i class="fas fa-cloud-sun"></i></a>
+</div>*/
