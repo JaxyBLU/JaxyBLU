@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 :root{
 	--main-color: #7c6f55;
 	--standart-white: #fff;
@@ -20,15 +22,13 @@ a:link, a:visited, a:hover, a:active{
 }
 
 body{
-	/*background-color: #111;*/
 	font-family: "Lato", sans-serif;
 	color: #fff;
 }
 
 /*================================= Header Design =========================*/
 header{
-	height: 10vh;
-	width: 100%;
+	max-width: 100%;
 	background-color: var(--main-color);
 	color: #fff;
 	display: flex;
@@ -36,12 +36,9 @@ header{
 }
 
 .navigation{
-	width: 70%;
-	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0 40px;
 }
 
 header h2{
@@ -58,67 +55,43 @@ header li{
 }
 
 header a:hover{
-	border-bottom: 2px solid #fff;
+	border-bottom: 1px solid #fff;
 }
 
 /*===================================== Main Body Design ===================*/
 main{
 	background-color: var(--standart-white);
 	color: var(--plain-dark);
-	width: 100%;
-	min-height: 80vh;
+	max-width: 100%;
 	display: flex;
 	justify-content: center;
 }
-.main_container{
-	margin: 2rem 0;
-	height: 100%;
-	width: 70%;
+.main{
 	display: grid;
 	grid-template-columns: 2fr 1fr;
-}
-
-.container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 1.5rem;
-	padding: 1.5rem;
-	border-radius: 10px;
-	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+	gap: 2rem;
 }
 
 /*====================================== Footer Design =========================*/
 footer{
 	display: flex;
 	justify-content: center;
-	/*min-height: 25vh;*/
-	width: 100%;
+	max-width: 100%;
 	background-color: var(--main-color);
-	overflow: auto;
 }
-/*
-.footer_container > *{
-	padding: 10px;
-}*/
 
-.footer_container{
-	height: 100%;
-	width: 70%;
+.footer{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	justify-content: center;
-	align-items: center;
 	gap: 1rem;
-	padding: 1rem ;
 }
 
 footer li{
 	padding: 5px 0;
-}s
+}
 
 footer nav  a:hover{
-	border-bottom: 2px solid #fff;
+	border-bottom: 1px solid #fff;
 }
 
 footer .social{
@@ -127,4 +100,30 @@ footer .social{
 
 footer .social a{
 	margin: 0 20px;
+}
+/*========================== About Page Design ===============================*/
+.about{
+	color: #111;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}
+.about_info{
+	line-height: 1.8em;
+}
+
+.about h2{
+	text-align: center;
+}
+/*========================== Universal Utility Classes =======================*/
+.container{
+	width: 70%;
+	height: 100%;
+	padding: 2rem 0;
+}
+
+.card{
+	padding: 1.5rem;
+	border-radius: 10px;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 }
