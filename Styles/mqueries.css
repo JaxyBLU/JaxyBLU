@@ -2,7 +2,17 @@
 @media (max-width: 768px){
     .social i{
         margin: 0.5rem 0;
-    } 
+    }
+
+    .main,
+    .footer,
+    .about{
+        grid-template-columns: 1fr;
+    }
+
+    .about::after{
+        grid-column: 1fr;
+    }
 }
 
 /*============================= Smartphones ==================*/
@@ -20,12 +30,6 @@
         padding: 0.5rem;
         border-radius: 8px;
         background-color: rgba(0, 0, 0, 0.3);
-    }
-
-    .main,
-    .footer,
-    .about{
-        grid-template-columns: 1fr;
     }
 
     .container{
