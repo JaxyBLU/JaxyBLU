@@ -68,8 +68,48 @@ main{
 }
 .main{
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	gap: 2rem;
+	grid-auto-flow: columns;
+}
+
+.projects_intro{
+
+}
+
+.projects_intro h2{
+	padding-bottom: 0.3rem;
+	text-align: right;
+	border-bottom: 2px dotted; black;
+}
+.projects_intro p{
+	text-indent: 2.5rem;
+	text-align: justify;
+	line-height: 1.5rem;
+	color: black;
+	font-weight: bolder;
+}
+
+.projects_body{
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height: 450px;
+}
+
+.projects_body div{
+	display: inline-block;
+	width: 45%;
+	margin-right: 1rem;
+}
+
+.projects_body a{
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	color: black;
+	background-color: #179DEA;
+	margin-bottom: 0.45rem;
 }
 
 /*====================================== Footer Design =========================*/
@@ -166,9 +206,23 @@ footer .social a{
 	color: blueviolet;
 }
 
+.roadmap{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .roadmap img{
 	max-width: 100%;
 	height: auto;
+}
+
+.roadmap_intro{
+	text-align: center;
+	width: 80%;
+	padding: 0.7rem;
+	margin-bottom: 0.8rem;
+	background-color: #C0C0C0;
 }
 
 /*========================== Universal Utility Classes =======================*/
