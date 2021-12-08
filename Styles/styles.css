@@ -66,7 +66,7 @@ main{
 	display: flex;
 	justify-content: center;
 }
-.main{
+.projects_main{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 2rem;
@@ -91,8 +91,6 @@ main{
 }
 
 .projects_body{
-	overflow-y: auto;
-	overflow-x: hidden;
 	max-height: 450px;
 }
 
@@ -112,6 +110,33 @@ main{
 	margin-bottom: 0.45rem;
 }
 
+.news_current{
+	padding-bottom: 2rem;
+}
+
+.news_current h3{
+	padding: 1rem;
+	margin-bottom: 0.5rem;
+	text-align: center;
+	width: 100%;
+	background-color: #84BA7E;
+	border-radius: 5px;
+}
+
+.news_current h4{
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+.news_current p{
+	margin: auto;
+	width: 40%;
+	padding-top: 0.5rem;
+	font-weight: bold;
+	text-align: justify;
+	text-indent: 2rem;
+	letter-spacing: 1px;
+}
 /*====================================== Footer Design =========================*/
 footer{
 	display: flex;
@@ -203,7 +228,7 @@ footer .social a{
 }
 
 .about_profile a{
-	color: blueviolet;
+	color: blue;
 }
 
 .roadmap{

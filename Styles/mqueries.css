@@ -13,7 +13,8 @@
     }
 
     .projects_body{
-        overflow: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     .projects_body div{
