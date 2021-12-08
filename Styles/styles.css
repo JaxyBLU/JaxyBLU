@@ -249,7 +249,17 @@ footer .social a{
 	margin-bottom: 0.8rem;
 	background-color: #C0C0C0;
 }
+/*========================== Footer Page Design ==============================*/
+.fornow{
+	min-height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.fornow h1{
+	text-align: center;
+}
 /*========================== Universal Utility Classes =======================*/
 .container{
 	width: 70%;
